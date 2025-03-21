@@ -1,0 +1,33 @@
+Ploidy Comparison Summary
+========================
+
+Total wells analyzed: 480
+Wells with both methods: 108
+Wells with only benomyl: 372
+Wells with only flow cytometry: 0
+
+Method Agreement:
+  Agreements: 53 (49.07%)
+  Disagreements: 55 (50.93%)
+  Borderline cases: 27 (25.00%)
+
+Ambiguous Gate Statistics:
+  Mean percentage: 69.26%
+  Median percentage: 71.56%
+  Min percentage: 0.00%
+  Max percentage: 90.61%
+  Standard deviation: 12.37%
+
+Results by Plate:
+  Plate 1:
+    Total comparisons: 79
+    Agreements: 35 (44.30%)
+    Disagreements: 44 (55.70%)
+    Borderline cases: 21
+
+  Plate 2:
+    Total comparisons: 29
+    Agreements: 18 (62.07%)
+    Disagreements: 11 (37.93%)
+    Borderline cases: 6
+
