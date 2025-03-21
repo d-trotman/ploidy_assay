@@ -16,7 +16,7 @@ The main output file containing the complete comparison of benomyl assay and flo
 - `flow_mixed_population`: Whether flow cytometry indicates a mixed population (TRUE/FALSE)
 - `flow_haploid_percent`: Percentage of cells in the haploid gate
 - `flow_diploid_percent`: Percentage of cells in the diploid gate
-- `flow_ambiguous_percent`: Percentage of cells in the ambiguous gate
+- `flow_ambiguous_percent`: Percentage of cells in the ambiguous gate (could be either G2 haploid or G1 diploid)
 - `disagreement_type`: Type of disagreement (if applicable)
 - `disagreement_explanation`: Potential explanation for disagreement (if applicable)
 
