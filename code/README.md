@@ -10,7 +10,7 @@ The main analysis script that compares benomyl assay results with flow cytometry
 
 #### Key Features
 
-- Calculates the number of cells in the "ambiguous gate" (cells that don't fall into either haploid or diploid gates)
+- Calculates the number of cells in the "ambiguous gate" (cells that can be either G2 haploids or G1 diploids)
 - Classifies disagreement types and provides potential explanations
 - Identifies patterns in disagreements by plate, row, or column
 - Generates visualizations to help understand the patterns
