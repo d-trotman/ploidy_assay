@@ -1,0 +1,16 @@
+Sample ID Format Validation Summary
+==================================
+
+Benomyl: 480/480 valid sample IDs
+Flow Cytometry: 108/108 valid sample IDs
+
+Plate distribution in benomyl data:
+  Plate 1: 96 samples
+  Plate 2: 96 samples
+  Plate 3: 96 samples
+  Plate 4: 96 samples
+  Plate 5: 96 samples
+
+Plate distribution in flow cytometry data:
+  Plate 1: 79 samples
+  Plate 2: 29 samples

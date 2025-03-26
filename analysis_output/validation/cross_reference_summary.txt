@@ -1,0 +1,39 @@
+Dataset Cross-Reference Summary
+==============================
+
+Total unique well IDs across both datasets: 480
+Common well IDs found in both datasets: 108 (22.5%)
+Well IDs only in benomyl dataset: 372 (77.5% of benomyl data)
+Well IDs only in flow cytometry dataset: 0 (0.0% of flow data)
+
+Breakdown by plate:
+
+Plate 1:
+  Total wells: 96
+  Common wells: 79 (82.3%)
+  Benomyl only: 17 (17.7%)
+  Flow only: 0 (0.0%)
+
+Plate 2:
+  Total wells: 96
+  Common wells: 29 (30.2%)
+  Benomyl only: 67 (69.8%)
+  Flow only: 0 (0.0%)
+
+Plate 3:
+  Total wells: 96
+  Common wells: 0 (0.0%)
+  Benomyl only: 96 (100.0%)
+  Flow only: 0 (0.0%)
+
+Plate 4:
+  Total wells: 96
+  Common wells: 0 (0.0%)
+  Benomyl only: 96 (100.0%)
+  Flow only: 0 (0.0%)
+
+Plate 5:
+  Total wells: 96
+  Common wells: 0 (0.0%)
+  Benomyl only: 96 (100.0%)
+  Flow only: 0 (0.0%)

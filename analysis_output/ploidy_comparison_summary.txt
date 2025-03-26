@@ -19,15 +19,15 @@ Ambiguous Gate Statistics:
   Standard deviation: 12.37%
 
 Results by Plate:
-  Plate 1:
-    Total comparisons: 79
-    Agreements: 35 (44.30%)
-    Disagreements: 44 (55.70%)
-    Borderline cases: 21
-
   Plate 2:
     Total comparisons: 29
     Agreements: 18 (62.07%)
     Disagreements: 11 (37.93%)
     Borderline cases: 6
+
+  Plate 1:
+    Total comparisons: 79
+    Agreements: 35 (44.30%)
+    Disagreements: 44 (55.70%)
+    Borderline cases: 21
 
