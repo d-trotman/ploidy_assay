@@ -15,13 +15,12 @@ This repository contains code and data for analyzing and comparing different met
 │       └── WGShybrid_ploidy_assay.xlsx
 ├── analysis_output/
 │   ├── figures/
-│   ├── ploidy_method_comparison.csv
-│   ├── ploidy_method_discrepancy_summary.txt
-│   ├── discrepancy_borderline_benomyl.csv
-│   ├── discrepancy_mixed_flow.csv
-│   └── discrepancy_clean.csv
+│   ├── flow_cytometry_with_ambiguous_gate.csv
+│   ├── ploidy_comparison_summary.txt
+│   ├── ploidy_comparison_summary.csv
+│   ├── ploidy_comparison_with_ambiguous_gate.csv
 └── code/
-    └── ploidy_discrepancy_analysis.py
+    └── ploidy_comparison_with_ambiguous_gate.py
 ```
 
 ## Overview
@@ -37,9 +36,9 @@ The analysis includes calculating the number of cells in the "ambiguous gate" of
 ## Key Findings
 
 - Agreement between methods: ~50%
+-Flow cytometry method could be revised to fix cells at a certain growth stage (i.e, prevent G2 stage)
 - Primary sources of disagreement: 
   - Borderline benomyl results
-  - Mixed populations in flow cytometry
   - Clean disagreements (when both methods show high confidence)
 
 ## Getting Started
@@ -52,7 +51,7 @@ To run the analysis:
 
 ```bash
 cd /your/path/here/GitHub/ploidy_assay/code
-python ploidy_discrepancy_analysis.py
+python3 ploidy_discrepancy_analysis.py
 ```
 
 ## Required Libraries

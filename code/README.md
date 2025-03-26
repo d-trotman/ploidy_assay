@@ -4,27 +4,9 @@ This directory contains the Python scripts used for analyzing ploidy determinati
 
 ## Scripts
 
-### ploidy_discrepancy_analysis.py
-
-The main analysis script that compares benomyl assay results with flow cytometry data, calculates the ambiguous gate in flow cytometry, and performs detailed analysis of discrepancies between methods.
-
-#### Key Features
-
-- Calculates the number of cells in the "ambiguous gate" (cells that are either G1 diploid or G2 haploid and therefore cannot be told apart)
-- Classifies disagreement types and provides potential explanations
-- Identifies patterns in disagreements by plate, row, or column
-- Generates visualizations to help understand the patterns
-- Creates comprehensive summary reports and specialized output files
-
-#### Usage
-
-```bash
-python ploidy_discrepancy_analysis.py
-```
-
 ### ploidy-comparison-with-ambiguous-gate.py
 
-A revised script that focuses on comparing ploidy results between flow cytometry and benomyl assay methods, with special attention to the ambiguous gate in flow cytometry data.
+A  script that compares ploidy results between flow cytometry and benomyl assay methods, with special attention to the ambiguous (G1 diploid and G2 haploid) gate in flow cytometry data.
 
 #### Key Features
 
@@ -38,7 +20,7 @@ A revised script that focuses on comparing ploidy results between flow cytometry
 #### Usage
 
 ```bash
-python ploidy-comparison-with-ambiguous-gate.py
+python3 ploidy-comparison-with-ambiguous-gate.py
 ```
 
 #### Functions
