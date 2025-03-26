@@ -5,7 +5,7 @@ This repository contains code and data for analyzing and comparing different met
 ## Project Structure
 
 ```
-/Users/dawsontrotman/Documents/GitHub/ploidy_assay/
+/your/path/here/GitHub/ploidy_assay/
 ├── raw_data/
 │   ├── benamil_assay/
 │   │   └── SM_benomyl_assay_df.csv
@@ -51,7 +51,7 @@ To run the analysis:
 3. Run the analysis script:
 
 ```bash
-cd /Users/dawsontrotman/Documents/GitHub/ploidy_assay/code
+cd /your/path/here/GitHub/ploidy_assay/code
 python ploidy_discrepancy_analysis.py
 ```
 
