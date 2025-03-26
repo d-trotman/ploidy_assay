@@ -3,8 +3,7 @@
 Revised Ploidy Comparison Script with Ambiguous Gate
 
 This script compares ploidy results from flow cytometry data and benomyl assay data,
-and calculates the number of cells in the ambiguous gate (cells not falling into 
-either haploid or diploid gates) for informational purposes.
+and calculates the number of cells in the ambiguous gate (cells that cannot be distinguished between G1 diploid and G2 haploid) for informational purposes.
 
 Usage:
     python revised_ploidy_comparison.py
